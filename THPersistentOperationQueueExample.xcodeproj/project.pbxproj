@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2C7DF9919335A7C006CD2AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C7DF9819335A7C006CD2AE /* Foundation.framework */; };
+		E2C7DF9B19335A7C006CD2AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C7DF9A19335A7C006CD2AE /* CoreGraphics.framework */; };
+		E2C7DF9D19335A7C006CD2AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C7DF9C19335A7C006CD2AE /* UIKit.framework */; };
+		E2C7DFA319335A7C006CD2AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2C7DFA119335A7C006CD2AE /* InfoPlist.strings */; };
+		E2C7DFA519335A7C006CD2AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFA419335A7C006CD2AE /* main.m */; };
+		E2C7DFA919335A7C006CD2AE /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFA819335A7C006CD2AE /* THAppDelegate.m */; };
+		E2C7DFAC19335A7C006CD2AE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C7DFAA19335A7C006CD2AE /* Main_iPhone.storyboard */; };
+		E2C7DFAF19335A7C006CD2AE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C7DFAD19335A7C006CD2AE /* Main_iPad.storyboard */; };
+		E2C7DFB219335A7C006CD2AE /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFB119335A7C006CD2AE /* THViewController.m */; };
+		E2C7DFB419335A7C006CD2AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C7DFB319335A7C006CD2AE /* Images.xcassets */; };
+		E2C7DFBB19335A7C006CD2AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C7DFBA19335A7C006CD2AE /* XCTest.framework */; };
+		E2C7DFBC19335A7C006CD2AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C7DF9819335A7C006CD2AE /* Foundation.framework */; };
+		E2C7DFBD19335A7C006CD2AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C7DF9C19335A7C006CD2AE /* UIKit.framework */; };
+		E2C7DFC519335A7C006CD2AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2C7DFC319335A7C006CD2AE /* InfoPlist.strings */; };
+		E2C7DFC719335A7C006CD2AE /* THPersistentOperationQueueExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFC619335A7C006CD2AE /* THPersistentOperationQueueExampleTests.m */; };
+		E2C7DFD619335C30006CD2AE /* THPersistentOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFD519335C30006CD2AE /* THPersistentOperationQueue.m */; };
+		E2C7DFD919335C47006CD2AE /* THPersistentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFD819335C47006CD2AE /* THPersistentOperation.m */; };
+		E2C7DFDC19335D05006CD2AE /* THPersistentOperationUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFDB19335D05006CD2AE /* THPersistentOperationUserInfo.m */; };
+		E2C7DFDF19336294006CD2AE /* THWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFDE19336294006CD2AE /* THWorker.m */; };
+		E2C7DFE2193363AD006CD2AE /* THStringWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFE1193363AD006CD2AE /* THStringWorker.m */; };
+		E2C7DFE519337C80006CD2AE /* THLoaderWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7DFE419337C80006CD2AE /* THLoaderWorker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2C7DFBE19335A7C006CD2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2C7DF8D19335A7C006CD2AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2C7DF9419335A7C006CD2AE;
+			remoteInfo = THPersistentOperationQueueExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2C7DF9519335A7C006CD2AE /* THPersistentOperationQueueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THPersistentOperationQueueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C7DF9819335A7C006CD2AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2C7DF9A19335A7C006CD2AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2C7DF9C19335A7C006CD2AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2C7DFA019335A7C006CD2AE /* THPersistentOperationQueueExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THPersistentOperationQueueExample-Info.plist"; sourceTree = "<group>"; };
+		E2C7DFA219335A7C006CD2AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2C7DFA419335A7C006CD2AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2C7DFA619335A7C006CD2AE /* THPersistentOperationQueueExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THPersistentOperationQueueExample-Prefix.pch"; sourceTree = "<group>"; };
+		E2C7DFA719335A7C006CD2AE /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
+		E2C7DFA819335A7C006CD2AE /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		E2C7DFAB19335A7C006CD2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E2C7DFAE19335A7C006CD2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E2C7DFB019335A7C006CD2AE /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		E2C7DFB119335A7C006CD2AE /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		E2C7DFB319335A7C006CD2AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E2C7DFB919335A7C006CD2AE /* THPersistentOperationQueueExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THPersistentOperationQueueExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C7DFBA19335A7C006CD2AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E2C7DFC219335A7C006CD2AE /* THPersistentOperationQueueExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THPersistentOperationQueueExampleTests-Info.plist"; sourceTree = "<group>"; };
+		E2C7DFC419335A7C006CD2AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2C7DFC619335A7C006CD2AE /* THPersistentOperationQueueExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THPersistentOperationQueueExampleTests.m; sourceTree = "<group>"; };
+		E2C7DFD419335C30006CD2AE /* THPersistentOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPersistentOperationQueue.h; sourceTree = "<group>"; };
+		E2C7DFD519335C30006CD2AE /* THPersistentOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPersistentOperationQueue.m; sourceTree = "<group>"; };
+		E2C7DFD719335C47006CD2AE /* THPersistentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPersistentOperation.h; sourceTree = "<group>"; };
+		E2C7DFD819335C47006CD2AE /* THPersistentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPersistentOperation.m; sourceTree = "<group>"; };
+		E2C7DFDA19335D05006CD2AE /* THPersistentOperationUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPersistentOperationUserInfo.h; sourceTree = "<group>"; };
+		E2C7DFDB19335D05006CD2AE /* THPersistentOperationUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPersistentOperationUserInfo.m; sourceTree = "<group>"; };
+		E2C7DFDD19336294006CD2AE /* THWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWorker.h; sourceTree = "<group>"; };
+		E2C7DFDE19336294006CD2AE /* THWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWorker.m; sourceTree = "<group>"; };
+		E2C7DFE0193363AD006CD2AE /* THStringWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THStringWorker.h; sourceTree = "<group>"; };
+		E2C7DFE1193363AD006CD2AE /* THStringWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THStringWorker.m; sourceTree = "<group>"; };
+		E2C7DFE319337C80006CD2AE /* THLoaderWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLoaderWorker.h; sourceTree = "<group>"; };
+		E2C7DFE419337C80006CD2AE /* THLoaderWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLoaderWorker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2C7DF9219335A7C006CD2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C7DF9B19335A7C006CD2AE /* CoreGraphics.framework in Frameworks */,
+				E2C7DF9D19335A7C006CD2AE /* UIKit.framework in Frameworks */,
+				E2C7DF9919335A7C006CD2AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C7DFB619335A7C006CD2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C7DFBB19335A7C006CD2AE /* XCTest.framework in Frameworks */,
+				E2C7DFBD19335A7C006CD2AE /* UIKit.framework in Frameworks */,
+				E2C7DFBC19335A7C006CD2AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2C7DF8C19335A7C006CD2AE = {
+			isa = PBXGroup;
+			children = (
+				E2C7DF9E19335A7C006CD2AE /* THPersistentOperationQueueExample */,
+				E2C7DFC019335A7C006CD2AE /* THPersistentOperationQueueExampleTests */,
+				E2C7DFD019335B80006CD2AE /* THPersistentOperationQueue */,
+				E2C7DF9719335A7C006CD2AE /* Frameworks */,
+				E2C7DF9619335A7C006CD2AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C7DF9619335A7C006CD2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7DF9519335A7C006CD2AE /* THPersistentOperationQueueExample.app */,
+				E2C7DFB919335A7C006CD2AE /* THPersistentOperationQueueExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C7DF9719335A7C006CD2AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7DF9819335A7C006CD2AE /* Foundation.framework */,
+				E2C7DF9A19335A7C006CD2AE /* CoreGraphics.framework */,
+				E2C7DF9C19335A7C006CD2AE /* UIKit.framework */,
+				E2C7DFBA19335A7C006CD2AE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C7DF9E19335A7C006CD2AE /* THPersistentOperationQueueExample */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7DFA719335A7C006CD2AE /* THAppDelegate.h */,
+				E2C7DFA819335A7C006CD2AE /* THAppDelegate.m */,
+				E2C7DFAA19335A7C006CD2AE /* Main_iPhone.storyboard */,
+				E2C7DFAD19335A7C006CD2AE /* Main_iPad.storyboard */,
+				E2C7DFB019335A7C006CD2AE /* THViewController.h */,
+				E2C7DFB119335A7C006CD2AE /* THViewController.m */,
+				E2C7DFB319335A7C006CD2AE /* Images.xcassets */,
+				E2C7DF9F19335A7C006CD2AE /* Supporting Files */,
+				E2C7DFE319337C80006CD2AE /* THLoaderWorker.h */,
+				E2C7DFE419337C80006CD2AE /* THLoaderWorker.m */,
+				E2C7DFE0193363AD006CD2AE /* THStringWorker.h */,
+				E2C7DFE1193363AD006CD2AE /* THStringWorker.m */,
+			);
+			path = THPersistentOperationQueueExample;
+			sourceTree = "<group>";
+		};
+		E2C7DF9F19335A7C006CD2AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7DFA019335A7C006CD2AE /* THPersistentOperationQueueExample-Info.plist */,
+				E2C7DFA119335A7C006CD2AE /* InfoPlist.strings */,
+				E2C7DFA419335A7C006CD2AE /* main.m */,
+				E2C7DFA619335A7C006CD2AE /* THPersistentOperationQueueExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2C7DFC019335A7C006CD2AE /* THPersistentOperationQueueExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7DFC619335A7C006CD2AE /* THPersistentOperationQueueExampleTests.m */,
+				E2C7DFC119335A7C006CD2AE /* Supporting Files */,
+			);
+			path = THPersistentOperationQueueExampleTests;
+			sourceTree = "<group>";
+		};
+		E2C7DFC119335A7C006CD2AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7DFC219335A7C006CD2AE /* THPersistentOperationQueueExampleTests-Info.plist */,
+				E2C7DFC319335A7C006CD2AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2C7DFD019335B80006CD2AE /* THPersistentOperationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7DFD719335C47006CD2AE /* THPersistentOperation.h */,
+				E2C7DFD819335C47006CD2AE /* THPersistentOperation.m */,
+				E2C7DFD419335C30006CD2AE /* THPersistentOperationQueue.h */,
+				E2C7DFD519335C30006CD2AE /* THPersistentOperationQueue.m */,
+				E2C7DFDA19335D05006CD2AE /* THPersistentOperationUserInfo.h */,
+				E2C7DFDB19335D05006CD2AE /* THPersistentOperationUserInfo.m */,
+				E2C7DFDD19336294006CD2AE /* THWorker.h */,
+				E2C7DFDE19336294006CD2AE /* THWorker.m */,
+			);
+			path = THPersistentOperationQueue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2C7DF9419335A7C006CD2AE /* THPersistentOperationQueueExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C7DFCA19335A7C006CD2AE /* Build configuration list for PBXNativeTarget "THPersistentOperationQueueExample" */;
+			buildPhases = (
+				E2C7DF9119335A7C006CD2AE /* Sources */,
+				E2C7DF9219335A7C006CD2AE /* Frameworks */,
+				E2C7DF9319335A7C006CD2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THPersistentOperationQueueExample;
+			productName = THPersistentOperationQueueExample;
+			productReference = E2C7DF9519335A7C006CD2AE /* THPersistentOperationQueueExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2C7DFB819335A7C006CD2AE /* THPersistentOperationQueueExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C7DFCD19335A7C006CD2AE /* Build configuration list for PBXNativeTarget "THPersistentOperationQueueExampleTests" */;
+			buildPhases = (
+				E2C7DFB519335A7C006CD2AE /* Sources */,
+				E2C7DFB619335A7C006CD2AE /* Frameworks */,
+				E2C7DFB719335A7C006CD2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C7DFBF19335A7C006CD2AE /* PBXTargetDependency */,
+			);
+			name = THPersistentOperationQueueExampleTests;
+			productName = THPersistentOperationQueueExampleTests;
+			productReference = E2C7DFB919335A7C006CD2AE /* THPersistentOperationQueueExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C7DF8D19335A7C006CD2AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thomas Heß";
+				TargetAttributes = {
+					E2C7DFB819335A7C006CD2AE = {
+						TestTargetID = E2C7DF9419335A7C006CD2AE;
+					};
+				};
+			};
+			buildConfigurationList = E2C7DF9019335A7C006CD2AE /* Build configuration list for PBXProject "THPersistentOperationQueueExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2C7DF8C19335A7C006CD2AE;
+			productRefGroup = E2C7DF9619335A7C006CD2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C7DF9419335A7C006CD2AE /* THPersistentOperationQueueExample */,
+				E2C7DFB819335A7C006CD2AE /* THPersistentOperationQueueExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C7DF9319335A7C006CD2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C7DFAF19335A7C006CD2AE /* Main_iPad.storyboard in Resources */,
+				E2C7DFB419335A7C006CD2AE /* Images.xcassets in Resources */,
+				E2C7DFAC19335A7C006CD2AE /* Main_iPhone.storyboard in Resources */,
+				E2C7DFA319335A7C006CD2AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C7DFB719335A7C006CD2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C7DFC519335A7C006CD2AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2C7DF9119335A7C006CD2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C7DFE2193363AD006CD2AE /* THStringWorker.m in Sources */,
+				E2C7DFDF19336294006CD2AE /* THWorker.m in Sources */,
+				E2C7DFD919335C47006CD2AE /* THPersistentOperation.m in Sources */,
+				E2C7DFB219335A7C006CD2AE /* THViewController.m in Sources */,
+				E2C7DFD619335C30006CD2AE /* THPersistentOperationQueue.m in Sources */,
+				E2C7DFDC19335D05006CD2AE /* THPersistentOperationUserInfo.m in Sources */,
+				E2C7DFA919335A7C006CD2AE /* THAppDelegate.m in Sources */,
+				E2C7DFA519335A7C006CD2AE /* main.m in Sources */,
+				E2C7DFE519337C80006CD2AE /* THLoaderWorker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C7DFB519335A7C006CD2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C7DFC719335A7C006CD2AE /* THPersistentOperationQueueExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2C7DFBF19335A7C006CD2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2C7DF9419335A7C006CD2AE /* THPersistentOperationQueueExample */;
+			targetProxy = E2C7DFBE19335A7C006CD2AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2C7DFA119335A7C006CD2AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C7DFA219335A7C006CD2AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2C7DFAA19335A7C006CD2AE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C7DFAB19335A7C006CD2AE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E2C7DFAD19335A7C006CD2AE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C7DFAE19335A7C006CD2AE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E2C7DFC319335A7C006CD2AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C7DFC419335A7C006CD2AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2C7DFC819335A7C006CD2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2C7DFC919335A7C006CD2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2C7DFCB19335A7C006CD2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THPersistentOperationQueueExample/THPersistentOperationQueueExample-Prefix.pch";
+				INFOPLIST_FILE = "THPersistentOperationQueueExample/THPersistentOperationQueueExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2C7DFCC19335A7C006CD2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THPersistentOperationQueueExample/THPersistentOperationQueueExample-Prefix.pch";
+				INFOPLIST_FILE = "THPersistentOperationQueueExample/THPersistentOperationQueueExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E2C7DFCE19335A7C006CD2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/THPersistentOperationQueueExample.app/THPersistentOperationQueueExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THPersistentOperationQueueExample/THPersistentOperationQueueExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "THPersistentOperationQueueExampleTests/THPersistentOperationQueueExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E2C7DFCF19335A7C006CD2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/THPersistentOperationQueueExample.app/THPersistentOperationQueueExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THPersistentOperationQueueExample/THPersistentOperationQueueExample-Prefix.pch";
+				INFOPLIST_FILE = "THPersistentOperationQueueExampleTests/THPersistentOperationQueueExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2C7DF9019335A7C006CD2AE /* Build configuration list for PBXProject "THPersistentOperationQueueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C7DFC819335A7C006CD2AE /* Debug */,
+				E2C7DFC919335A7C006CD2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C7DFCA19335A7C006CD2AE /* Build configuration list for PBXNativeTarget "THPersistentOperationQueueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C7DFCB19335A7C006CD2AE /* Debug */,
+				E2C7DFCC19335A7C006CD2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C7DFCD19335A7C006CD2AE /* Build configuration list for PBXNativeTarget "THPersistentOperationQueueExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C7DFCE19335A7C006CD2AE /* Debug */,
+				E2C7DFCF19335A7C006CD2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2C7DF8D19335A7C006CD2AE /* Project object */;
+}
